@@ -22,7 +22,7 @@ public class CarDaoImp implements CarDao{
     }
 
     @Override
-    public List<Car> listCars(int count) {
-        return list.subList(0, count);
+    public List<Car> listCars() {
+        return list;
     }
 }
